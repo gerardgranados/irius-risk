@@ -20,7 +20,7 @@ Launches the test runner in the interactive watch mode.
 
 Launches the test and get coverage\
 
-**Note: The current coverage is 42%, I could have done more tests to increase the coverage but I preferred to add other features instead**
+**Note: The current coverage is 41%, I could have done more tests to increase the coverage but I preferred to add other features instead**
 ![img.png](coverage.png)
 
 ### `npm run build`
@@ -50,7 +50,7 @@ Instead of using the assets that you have provided me, I have preferred to attac
 I have made a system with scss variables and a hook called useTheme that allows to exchange between two themes (light/dark)
 ###internationalization
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
-##how i worked
+##How i worked
 ###Folder structure:
 - Assets -> (resources like images, ...)
 - Components -> (Those elements that are used in the application but do not contain logic and are reusable)
