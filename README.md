@@ -43,20 +43,23 @@ It is a framework to make http requests in our application.
 ###React testing library
 It is a library that allows testing the components and also the hooks
 
+## Features
+**Filters**
 
-
-###Filters
 After take a look at the swapi.dev api, I noticed that this api only accepted the query param search and that if filters such as orderBy or the address were added, it would not order the response. That's why I filtered at the front level. In case the api had been prepared, the hooks made would have been simpler since when updating any filter it would call the fetch function and this would return the correct results.
 
-###Get resources
+**Get resources**
+
 Instead of using the assets that you have provided me, I have preferred to attack an api that obtains said resources, in case the resource is not available, an image is shown by default
 
-##Other Features
 
-###Themes
+
+**Themes**
+
 I have made a system with scss variables and a hook called useTheme that allows to exchange between two themes (light/dark)
 
-###internationalization
+**internationalization**
+
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
 
 ##How i worked
