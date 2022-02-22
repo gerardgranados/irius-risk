@@ -62,9 +62,8 @@ I have made a system with scss variables and a hook called useTheme that allows 
 
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
 
-##How i worked
 
-###Folder structure:
+**Folder structure:**
 - Assets -> (resources like images, ...)
 - Components -> (Those elements that are used in the application but do not contain logic and are reusable)
 - Config -> (there is a folder with the constants used in our application and another with the scss themes)
@@ -74,11 +73,14 @@ I have used react-i18n as a library to implement the internationalization of the
 - Templates -> They are components that contain logic that is inside their hook.
 - Utils -> this folder contains different files with reusable functions in our application
 
-###API Management:
+**API Management:**
+
 I have made a singleton to be able to structure the different endpoints that are attacked in the star wars api. You will also find a file called Rest Api with the different http methods used by axios, which is used in the sigleton
 
-###Hooks
+**Hooks**
+
 I have tried to make the hooks agnostic so that they can be easily reused.
 
-###Styles
+**Styles**
+
 I have styled the application through scss since it was a requirement in the test, however I would have used Styled components instead
