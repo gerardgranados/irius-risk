@@ -61,7 +61,7 @@ I have made a system with scss variables and a hook called useTheme that allows 
 **internationalization**
 
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
-
+## How I worked
 
 **Folder structure:**
 - Assets -> (resources like images, ...)
