@@ -63,7 +63,7 @@ I have made a system with scss variables and a hook called useTheme that allows 
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
 ## How I worked
 
-### Folder structure:
+**Folder structure:**
 - Assets -> (resources like images, ...)
 - Components -> (Those elements that are used in the application but do not contain logic and are reusable)
 - Config -> (there is a folder with the constants used in our application and another with the scss themes)
