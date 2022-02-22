@@ -38,20 +38,29 @@ It is the icon library used in this application
 
 ### Axios
 It is a framework to make http requests in our application.
+
 ###React testing library
 It is a library that allows testing the components and also the hooks
+
 ## Features
-####Filters
+
+###Filters
 After take a look at the swapi.dev api, I noticed that this api only accepted the query param search and that if filters such as orderBy or the address were added, it would not order the response. That's why I filtered at the front level. In case the api had been prepared, the hooks made would have been simpler since when updating any filter it would call the fetch function and this would return the correct results.
-####Get resources
+
+###Get resources
 Instead of using the assets that you have provided me, I have preferred to attack an api that obtains said resources, in case the resource is not available, an image is shown by default
+
 ##Other Features
-####Themes
+
+###Themes
 I have made a system with scss variables and a hook called useTheme that allows to exchange between two themes (light/dark)
-####internationalization
+
+###internationalization
 I have used react-i18n as a library to implement the internationalization of the application with 2 languages (English/Spanish)
+
 ##How i worked
-####Folder structure:
+
+###Folder structure:
 - Assets -> (resources like images, ...)
 - Components -> (Those elements that are used in the application but do not contain logic and are reusable)
 - Config -> (there is a folder with the constants used in our application and another with the scss themes)
@@ -61,9 +70,11 @@ I have used react-i18n as a library to implement the internationalization of the
 - Templates -> They are components that contain logic that is inside their hook.
 - Utils -> this folder contains different files with reusable functions in our application
 
-####API Management:
+###API Management:
 I have made a singleton to be able to structure the different endpoints that are attacked in the star wars api. You will also find a file called Rest Api with the different http methods used by axios, which is used in the sigleton
-####Hooks
+
+###Hooks
 I have tried to make the hooks agnostic so that they can be easily reused.
-####Styles
+
+###Styles
 I have styled the application through scss since it was a requirement in the test, however I would have used Styled components instead
