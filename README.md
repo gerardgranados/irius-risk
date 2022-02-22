@@ -33,6 +33,7 @@ Builds the app for production to the `build` folder.\
 
 ### React router
 It is a framework that creates the routing system of a React application, which I am very familiar with.
+
 ### Font Awesome
 It is the icon library used in this application
 
