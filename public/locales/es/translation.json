@@ -1,0 +1,33 @@
+{
+  "title": "Centro de destructores imperiales",
+  "sections": {
+    "planets": "Planetas",
+    "starships": "Naves",
+    "people": "Personajes",
+    "vehicles": "Vehículos"
+  },
+  "filters": {
+    "search": "Buscar",
+    "orderBy": {
+      "default": "Defecto",
+      "name": "Nombre",
+      "population": "Población",
+      "cargo": "Carga",
+      "crew": "Tripulación",
+      "mass": "Masa",
+      "passengers": "Pasajeros"
+    }
+  },
+  "texts":{
+    "populationOf": "Población de",
+    "unknown": "Desconocido",
+    "male": "Hombre",
+    "female": "Mujer",
+    "passenger": "Pasajero",
+    "passenger_plural": "Pasajeros"
+  },
+  "footer": {
+    "text": "Desafio para Irius risk"
+  }
+
+}

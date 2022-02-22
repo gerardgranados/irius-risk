@@ -1,0 +1,14 @@
+.list-page{
+  padding: 0 12px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  .title-page{
+    font-weight: 900;
+    font-size: 20px;
+    margin: 18px 0;
+  }
+  .grid{
+    flex: 1;
+  }
+}

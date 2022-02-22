@@ -1,0 +1,24 @@
+.header{
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  .title{
+    flex:1;
+    font-size:1rem;
+    font-weight: 700;
+  }
+  &>svg{
+    padding: 6px;
+    cursor: pointer;
+    margin: 0 6px;
+  }
+  .menu-button{
+
+  }
+
+}
+@media (min-width: 769px) {
+  .menu-button{
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Imperial destroyers center",
+  "sections": {
+    "planets": "Planets",
+    "starships": "Starships",
+    "people": "People",
+    "vehicles": "Vehicles"
+  },
+  "filters": {
+    "search": "Search",
+    "orderBy": {
+      "default": "Default",
+      "name": "Name",
+      "population": "Population",
+      "cargo": "Cargo",
+      "crew": "Crew",
+      "mass": "Mass",
+      "passengers": "Passengers"
+    }
+  },
+  "texts":{
+    "populationOf": "Population of",
+    "unknown": "Unknown",
+    "male": "Male",
+    "female": "Female",
+    "passenger": "Passenger",
+    "passenger_plural": "Passengers"
+  },
+  "footer": {
+    "text": "Recruitment Challenge For Irius Risk"
+  }
+
+}

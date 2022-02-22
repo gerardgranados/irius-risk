@@ -1,0 +1,16 @@
+.search{
+  display: flex;
+  padding: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  svg{
+    margin-right: 12px;
+  }
+  input{
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+}

@@ -1,0 +1,50 @@
+.side-menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  flex: 0;
+  padding: 12px;
+  z-index: 1;
+
+  .menu-logo {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+
+  .menu-item {
+    display: flex;
+    padding: 12px 18px;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+
+    svg {
+      margin-right: 12px;
+    }
+  }
+}
+.shadow{
+  background: #0000006b;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+@media (max-width: 768px) {
+  .side-menu{
+    width: 80%;
+    position: absolute;
+    height: 100%;
+    &.hide{
+      display: none;
+    }
+  }
+  .shadow{
+    &:not(.hide){
+      display: block;
+    }
+  }
+
+}

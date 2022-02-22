@@ -1,0 +1,22 @@
+.error-wrapper{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  bottom: 0;
+  padding: 6px;
+  .error-alert{
+    background: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    .text{
+      flex: 1;
+    }
+    svg{
+      padding: 6px 12px;
+      cursor: pointer;
+    }
+  }
+}

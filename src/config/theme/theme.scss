@@ -1,0 +1,63 @@
+@import 'config/theme/light';
+@import 'config/theme/dark';
+.App{
+  color:var(--color-fonts);
+  .main-container{
+    background: var(--color-background);
+  }
+  .side-menu{
+    background: var(--color-contrast-background);
+    border-right: 1px solid var(--color-border);
+
+    .menu-item{
+      &.active{
+        background:  var(--color-contrast-dark-background);
+      }
+    }
+  }
+  .header{
+    background: var(--color-contrast-background);
+    border-bottom: 1px solid var(--color-border);
+  }
+  .search,
+  .select{
+    background: var(--color-contrast-background);
+    border: 1px solid var(--color-border);
+  }
+  .toggle-diretion{
+    background: var(--color-contrast-background);
+    border: 1px solid var(--color-border);
+  }
+  &>.content{
+    .main{
+      background: var(--color-background);
+    }
+  }
+  .card{
+    border: 1px solid var(--color-border);
+  }
+
+  .error-alert{
+    background: var(--color-danger);
+  }
+  .footer{
+    background: var(--color-background-footer);
+    color: var(--color-footer);
+  }
+}
+*{
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-fonts);
+    border-radius: 1px;
+  }
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-fonts);
+}

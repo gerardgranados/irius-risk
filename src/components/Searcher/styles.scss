@@ -1,0 +1,14 @@
+.filters{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  .toggle-diretion{
+    margin: 0 12px;
+    padding: 12px;
+    border-radius: 12px;
+  }
+  .select{
+    min-width: 120px;
+    flex:0;
+  }
+}
